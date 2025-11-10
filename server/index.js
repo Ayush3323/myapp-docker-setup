@@ -23,4 +23,4 @@ app.get("/api/message", (req, res) => {
 });
 
 const PORT = 4000;
-app.listen(PORT, () => console.log(`Server is running at http://localhost:${PORT}`))
+app.listen(PORT, "0.0.0.0", () => console.log(`Server is running at http://localhost:${PORT}`))
